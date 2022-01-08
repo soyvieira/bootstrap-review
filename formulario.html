@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/form-style.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Formulário - Bootstrap Review Project</title>
+  </head>
+  <body>
+  <section class="form-style">
+    <div class="container">
+      <h2 class="display-5 text-center margin-bottom">Formatando formulário com bootstrap</h2>
+      <form>
+        <!--E-mail-->
+        <div class="mb-3">
+          <label class="form-label">E-mail</label>
+          <input type="email" class="form-control" placeholder="Seu email" aria-describedby="emailHelp">
+        </div>
+
+        <!--Username-->
+        <div class="mb-3">
+        <label class="form-label">Digite um username</label>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">@</span>
+          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        </div>
+
+        <!--Senha-->
+        <div class="mb-3">
+          <label class="form-label">Senha</label>
+          <input type="password" class="form-control" placeholder="Senha de 8 dígitos" >
+          <div id="" class="form-text">8 caracteres, contendo pelo menos: 1 letra maiúscula, 1 letra minúscula, 1 algarismo e 1 caracter especial.</div>
+        </div>
+
+        <p class="lead">Outras Informações</p>
+
+        <!--Input text-->
+        <div class="mb-3">
+          <label class="form-label">Nome Completo</label>
+          <input type="text" class="form-control" placeholder="">
+        </div>
+
+        <!--input date-->
+        <div class="mb-3">
+          <label class="form-label">Data de Nascimento</label>
+          <input type="date" class="form-control" id="">
+        </div>
+
+        <!--Select-->
+        <div class="mb-3">
+        <label class="form-label">Escolha sua cidade</label>
+        <input class="form-control" list="datalistOptions" id="" placeholder="Toque para escolher">
+          <datalist id="datalistOptions">
+          <option value="Rio de Janeiro">
+          <option value="São Paulo">
+          <option value="Curitiba">
+          <option value="Brasília">
+          <option value="Porto Alegre">
+          </datalist>
+        </div>
+
+        <!--Checks-->
+        <div class="mb-3">
+          <label class="form-label">Assuntos que você gosta:</label>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="Jogos" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">Jogos</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="Tech" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">Tech</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="Travel" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">Travel</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="Science" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">Science</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="Todos" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">Todos acima</label>
+            </div>
+        </div>
+
+        <!--Radios-->
+        <div class="mb-3">
+          <label class="form-label">Tempo de experiência em TI:</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Até 1 ano
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Entre 1 e 3 anos
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Entre 3 e 5 anos
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" disabled>
+              <label class="form-check-label" for="flexRadioDefault1">
+                Eternidade
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Nenhuma experiência
+              </label>
+            </div>
+        </div>
+
+        <!--Àrea de mensagem-->
+        <div class="mb-3">
+          <label class="form-label">Digite uma sugestão:</label>
+          <textarea class="form-control" placeholder="Seja sincero..." id=""></textarea>
+          
+        </div>
+        <button type="submit" class="btn btn-success">Cadastrar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <p><a href="/index.html">Voltar</a></p>
+            </div>
+            <div class="col-6">
+                <p class="text-end"><em>Bootstrap Review Project</em></p>
+            </div>
+        </div>
+    </div>
+  </footer>
+  
+  <!--Bootstrap JS-->
+  <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
