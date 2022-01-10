@@ -18,7 +18,8 @@
 .img-margin{
    margin: 10px; 
 }
-ul, li{
+
+#home li{
     line-height: 50px;
 }
 
@@ -34,3 +35,7 @@ footer{
     padding-top: 100px;
     padding-bottom: 30px;
 }
+.tamanho-logo-menu{
+    width: 100px;
+}
+
