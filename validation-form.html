@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/form-style.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- JS VAlidation -->
+    <script src="js/bootstrap.min.js"></script>
+    <title>Vídeo Responsivo - Bootstrap Review Project</title>
+  </head>
+  <body>
+    <section class="container">
+      <h1 class="display-4 margin-bottom">Formulário com validação bootstrap</h1>
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-6">
+          <label for="validationCustom01" class="form-label">Email</label>
+          <input type="text" class="form-control" id="validationCustom01" required>
+          <div class="valid-feedback">
+            Certo!
+          </div>
+          <div class="invalid-feedback">
+           Por favor, digite seu email!
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustomUsername" class="form-label">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Um username é necessário.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom01" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="validationCustom01" required>
+          <div class="valid-feedback">
+            Certo!
+          </div>
+          <div class="invalid-feedback">
+           Por favor, digite seu nome!
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom02" class="form-label">Sobrenome</label>
+          <input type="text" class="form-control" id="validationCustom02" required>
+          <div class="valid-feedback">
+            Certo!
+          </div>
+          <div class="invalid-feedback">
+            Por favor, digite seu sobrenome!
+           </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">Cidade</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Digite uma cidade
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">Estado</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Escolha...</option>
+            <option>Rio de Janeiro</option>
+            <option>São Paulo</option>
+            <option>Minas Gerais</option>
+          </select>
+          <div class="invalid-feedback">
+            Selecione um estado.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">CEP</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Digite um CEP
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Leia todos os termos <a href="#">aqui</a>.
+            </label>
+            <div class="invalid-feedback">
+              Você precisa aceitar os termos para continuarmos...
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+      </form>
+    </section>
+    <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-6">
+                  <p><a href="/index.html">Voltar</a></p>
+              </div>
+              <div class="col-6">
+                  <p class="text-end"><em>Bootstrap Review Project</em></p>
+              </div>
+          </div>
+      </div>
+    </footer>
+  <!--Bootstrap JS-->
+  <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+      'use strict'
+
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.querySelectorAll('.needs-validation')
+
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+
+            form.classList.add('was-validated')
+          }, false)
+        })
+    })()
+  </script>
+  </body>
+</html>
+
+
