@@ -1,0 +1,72 @@
+body{
+    background-color: #ffffff;
+    color: #591202;
+}
+/* CSS Main Menu */
+#main-menu ul li a{
+    color: #591202;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#main-menu ul li a:hover{
+    color:#A66F0A;
+}
+#main-menu .btn-outline-success{
+    background-color: white;
+    border: 1px solid #A66F0A; ;
+    color: #591202;
+}
+#main-menu .btn-outline-success:focus {
+    box-shadow: 0 0 0 0.25rem #A66F0A;
+}
+#main-menu .form-control {
+    background-color: white;
+    border: 1px solid #A66F0A; ;
+    color: #591202;
+}
+#main-menu .form-control:focus {
+    box-shadow: 0 0 0 0.25rem #A66F0A;
+}
+/* CSS Apresentação */
+#apresentacao{
+    background-color: ;
+}
+#apresentacao .btn{
+    background-color: white;
+    border: 1px solid #A66F0A;
+    color: #591202; 
+}
+#apresentacao .btn:focus{
+    box-shadow: 0 0 0 0.25rem #A66F0A;
+}
+/* CSS Produtos */
+#produtos-destaque .btn-outline-secondary{
+    background-color: #591202; 
+    border: 1px solid #A66F0A;
+    color: white;
+}
+#produtos-destaque .btn-outline-secondary:hover{
+    background-color: white; 
+    border: 1px solid #A66F0A;
+    color: #591202;
+}
+#produtos-destaque .btn-outline-secondary:focus{
+box-shadow: 0 0 0 0.25rem #A66F0A;
+}
+
+/* CSS Footer */
+#footer .form-control {
+    background-color: white;
+    border: 1px solid #A66F0A; ;
+    color: #591202;
+}
+#footer .form-control:focus {
+    box-shadow: 0 0 0 0.25rem #A66F0A;
+}
+#footer .btn{
+    background-color: white;
+    border: 1px solid #A66F0A;
+    color: #591202; 
+}
+#footer .btn:focus{
+    box-shadow: 0 0 0 0.25rem #A66F0A;
