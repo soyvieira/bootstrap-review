@@ -1,8 +1,8 @@
 # Bootstrap Review
 
-Conetúdo das mini aulas de bootstrap.
+Conteúdo das mini aulas de bootstrap.
 
-### Conteúdo:.
+### Conteúdo:
 
 * Grid e tipografia
 * Navbar e menu
