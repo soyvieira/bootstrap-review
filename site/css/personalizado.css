@@ -27,9 +27,14 @@ body{
 #main-menu .form-control:focus {
     box-shadow: 0 0 0 0.25rem #A66F0A;
 }
+/* Slider */
+#slider .container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
 /* CSS Apresentação */
 #apresentacao{
-    background-color: ;
+    background-color:#ebe5d9;
 }
 #apresentacao .btn{
     background-color: white;
@@ -53,7 +58,34 @@ body{
 #produtos-destaque .btn-outline-secondary:focus{
 box-shadow: 0 0 0 0.25rem #A66F0A;
 }
-
+/* CSS Contato */
+#contato{
+    background-color:#f7f2e9;
+}
+#contato .form-control {
+    background-color: white;
+    border: 1px solid #A66F0A; ;
+    color: #591202;
+}
+#contato .form-select {
+    background-color: white;
+    border: 1px solid #A66F0A; ;
+    color: #591202;
+}
+#contato .form-select:focus{
+    box-shadow: 0 0 0 0.25rem #A66F0A;
+}
+#contato .form-control:focus {
+    box-shadow: 0 0 0 0.25rem #A66F0A;
+}
+#contato .btn{
+    background-color: white;
+    border: 1px solid #A66F0A;
+    color: #591202; 
+}
+#contato .btn:focus{
+    box-shadow: 0 0 0 0.25rem #A66F0A;
+}
 /* CSS Footer */
 #footer .form-control {
     background-color: white;
@@ -70,3 +102,4 @@ box-shadow: 0 0 0 0.25rem #A66F0A;
 }
 #footer .btn:focus{
     box-shadow: 0 0 0 0.25rem #A66F0A;
+}
